@@ -1,0 +1,47 @@
+anims
+
+Actor -- completionTag
+
+{
+	"type"		: "text",
+	"txt"			: aContentText[9],
+	"divID"		: "completionTag",
+	"divClasses"	: "fontSize14 initOpacityZero", // 
+	"addtCss"		: {
+						"text-align":"center",
+						"padding":"5px",
+						"background":"#FFFFFF",
+						"bottom":"5px"
+				  },
+	"width"		: 600,
+	"startX"		: "center"
+}
+
+animation - add 
+
+{
+	"startTime"			: 0,
+	"func"			: "fillTag"
+},
+{
+	"startTime"			: 0.5,
+	"divID"			: ["completionTag"],
+	"animTargetValues"	: {"opacity":1},
+	"duration"			: 0.3
+}
+
+
+
+Add the script
+
+
+Add it to the html
+
+<script src='js/5_0_scripts.js'></script>
+
+
+Add in the text actor 
+"<strong>Course Completion Code:</strong>", // 5
+
+
+Upload Warranty Advanced
